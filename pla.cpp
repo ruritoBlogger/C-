@@ -28,7 +28,7 @@ int main() {
 
 //文字が入っていた場合falseを出力する
 bool checkInput(std::string input) {
-    return = std::all_of(input.cbegin(),input.cend(),isdight);
+    return std::all_of(input.cbegin(),input.cend(),isdigit);
 }
 
 //ピラミッドを出力する
