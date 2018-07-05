@@ -35,7 +35,7 @@ bool checkInput(std::string input) {
 void display(int mode) {
     std::string space = " ";
     //iは何段目を指している
-    for(int i = 0;i < mode;i++) {
+    for(int i = 1;i < mode+1;i++) {
         //i段目の出力
         for(int j = 0;j < mode -i;j++) {
             std::cout << space;
