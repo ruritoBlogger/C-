@@ -33,7 +33,7 @@ int main(){
                 break;
             }else{
                 //素数でなければnの倍数を判定しないようにする
-                for(int i = n;i < length;i*2) {
+                for(int i = n;i < length;i *= 2) {
                     check[i] = false;
                 }
             }
