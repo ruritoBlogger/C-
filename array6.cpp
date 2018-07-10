@@ -20,8 +20,14 @@ int main() {
         std::cout << std::endl;
     }
 
+    //回数の入力    
+    int roop;
+    std::cout << "回数の入力";
+    std::cin >> roop;
+    std::cout << std::endl;
+
     //範囲の入力及び結果の出力
-    while(true) {
+    for(int n = 0;n < roop;n++) {
         //範囲の指定
         std::cout << "出力したい和の範囲の指定" << std::endl;
         std::cout << "ひとつ目：";
