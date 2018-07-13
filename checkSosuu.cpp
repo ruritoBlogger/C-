@@ -59,6 +59,6 @@ int main() {
 }
 
 void aori() {
-    cout << "数字すら入力できないなんてさすが立命生ですね^^" << endl;
+    cout << "error" << endl;
 }
 
