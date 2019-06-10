@@ -40,7 +40,7 @@ int main() {
              if(flag) {
                  for(int i = 1;i < n;i++) {
                      if(flag){
-                         cout << i << j << endl;
+                         //cout << i << j << endl;
                          if(n/(j*i) == 1) {
                              flag = false;
                          }
